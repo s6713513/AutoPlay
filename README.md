@@ -1,7 +1,7 @@
 # AutoPlay
 雨中冒险2全自动挂机mod
 
-需要BepinEx modloader
+需要BepinEx modloader，绝大部分功能主机、客机均能使用
 
 F1 无技能cd
 F2 攻击附带一次超高伤害的打击
