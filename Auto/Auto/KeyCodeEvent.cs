@@ -83,8 +83,8 @@ namespace AutoPlay
             }
             if (flag2)
             {
-                //maxDamage = !maxDamage;
-                Stage.instance.BeginAdvanceStage(Run.instance.nextStageScene);
+                maxDamage = !maxDamage;
+                //Stage.instance.BeginAdvanceStage(Run.instance.nextStageScene);
             }
 
             if (KeyCode.F3 == e)
