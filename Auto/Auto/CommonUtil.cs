@@ -49,8 +49,7 @@ namespace AutoPlay
             }
             return result;
         }
-
-        // Token: 0x06000006 RID: 6 RVA: 0x000022F4 File Offset: 0x000004F4
+        
         public static object SetNotPublicPro(object instance, string varName, object newVar)
         {
             Type type = instance.GetType();
@@ -65,10 +64,7 @@ namespace AutoPlay
             PropertyInfo field = type.GetProperty(varName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);            
             return field.GetValue(instance);
         }
-
-
-
-        // Token: 0x06000007 RID: 7 RVA: 0x00002328 File Offset: 0x00000528
+        
         public static object GetNotPublicVar(object instance, string varName)
         {
             Type type = instance.GetType();
