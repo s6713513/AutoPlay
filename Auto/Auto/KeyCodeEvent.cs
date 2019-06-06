@@ -172,15 +172,7 @@ namespace AutoPlay
                     ClientCheat.GetInstance().KillChoosePlayer(users[position]);
                 }
             }
-        }
-
-        //private static void UserProfile_DiscoverPickup(On.RoR2.UserProfile.orig_DiscoverPickup orig, UserProfile self, PickupIndex pickupIndex)
-        //{
-        //    if(!pickUp)
-        //    {
-        //        orig(self, pickupIndex);
-        //    }
-        //}
+        }       
 
         private static void PrintPlayerName()
         {
