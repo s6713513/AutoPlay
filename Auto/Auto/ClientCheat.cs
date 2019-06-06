@@ -21,7 +21,7 @@ namespace AutoPlay
         private List<DamageDealtMessage> message;
         private static ClientCheat instance;
         private bool locked;
-        public readonly float KILL_DAMAGE = 912314367;
+        public readonly float KILL_DAMAGE = 912314368;
         //是否考虑队友捡物品
         private bool friendly;
         //是否完成瞬移
