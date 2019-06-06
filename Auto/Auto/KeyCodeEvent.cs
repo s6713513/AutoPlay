@@ -145,8 +145,6 @@ namespace AutoPlay
                 }
             }           
 
-
-
             if (users.Count > 0 && (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Keypad3)))
             {
                 int position = 0;
